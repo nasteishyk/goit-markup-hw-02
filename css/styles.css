@@ -1,0 +1,164 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2e2f42; /* NAVY BLUE */ 
+    background-color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* header */
+.logo {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+}
+
+.logo-web {
+    color: #4D5AE5; /* IRIS */
+}
+
+.navigation ul a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.navigation ul a:hover,
+.navigation ul a:focus {
+    color: #404BBF;
+}
+
+.address a {
+    color: #434455; /* SLATE */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address a:hover,
+.address a:focus {
+    color: #404BBF;
+}
+
+
+/* solutions */
+.solutions {
+    background-color: #2e2f42;
+}
+
+.solutions h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.solutions button {
+    cursor: pointer;
+    background-color: #4D5AE5;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.solutions button:hover,
+.solutions button:focus {
+    background-color: #404BBF;
+}
+
+/* features */
+.features h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.features p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* our-team */
+.our-team {
+    background-color: #F4F4FD; /* CLOUD */
+}
+
+.our-team h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.our-team-person {
+    background-color: #fff;
+}
+
+.our-team-person h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.our-team-person p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+/* our-portfolio */
+.our-portfolio h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.portfolio-term h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-term p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* footer */
+footer {
+    background-color: #2e2f42;
+}
+
+footer p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+.logo-studio {
+    color: #F4F4FD;
+}
