@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Studio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -19,14 +19,14 @@
   </head>
   <body>
     <header>
-      <nav class="navigation">
+      <nav>
         <a href="./index.html" class="logo"
-          ><span class="logo-web">Web</span>Studio</a
+          >Web<span class="logo-studio">Studio</span></a
         >
         <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+          <li><a href="./index.html" class="navigation-link">Studio</a></li>
+          <li><a href="" class="navigation-link">Portfolio</a></li>
+          <li><a href="" class="navigation-link">Contacts</a></li>
         </ul>
       </nav>
       <address class="address">
@@ -39,37 +39,39 @@
 
     <main>
       <section class="solutions">
-        <h1>Effective Solutions<br />for Your Business</h1>
-        <button type="button">Order Service</button>
+        <h1 class="solutions-title">
+          Effective Solutions<br />for Your Business
+        </h1>
+        <button type="button" class="solutions-button">Order Service</button>
       </section>
 
       <section class="features">
         <h2 hidden>Features</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="features-title">Strategy</h3>
+            <p class="features-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="features-title">Punctuality</h3>
+            <p class="features-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="features-title">Diligence</h3>
+            <p class="features-text">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="features-title">Technologies</h3>
+            <p class="features-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -78,7 +80,7 @@
       </section>
 
       <section class="our-team">
-        <h2>Our Team</h2>
+        <h2 class="our-team-title">Our Team</h2>
         <ul>
           <li class="our-team-person">
             <img
@@ -87,8 +89,8 @@
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="team-person-title">Mark Guerrero</h3>
+            <p class="team-person-text">Product Designer</p>
           </li>
           <li class="our-team-person">
             <img
@@ -97,8 +99,8 @@
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-person-title">Tom Ford</h3>
+            <p class="team-person-text">Frontend Developer</p>
           </li>
           <li class="our-team-person">
             <img
@@ -107,8 +109,8 @@
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="team-person-title">Camila Garcia</h3>
+            <p class="team-person-text">Marketing</p>
           </li>
           <li class="our-team-person">
             <img
@@ -117,78 +119,78 @@
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="team-person-title">Daniel Wilson</h3>
+            <p class="team-person-text">UI Designer</p>
           </li>
         </ul>
       </section>
-      <section class="our-portfolio">
-        <h2>Our Portfolio</h2>
+
+      <section>
+        <h2 class="our-portfolio-title">Our Portfolio</h2>
         <ul>
-          <li class="portfolio-term">
+          <li>
             <img
               src="./images/our-portfolio-6.jpg"
               alt="Banking App"
               width="360"
             />
-            <h3>Banking App</h3>
-            <p>App</p>
+            <h3 class="portfolio-title">Banking App</h3>
+            <p class="portfolio-text">App</p>
           </li>
-          <li class="portfolio-term">
+          <li>
             <img
               src="./images/our-portfolio-5.jpg"
               alt="Cashless Payment"
               width="360"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-title">Cashless Payment</h3>
+            <p class="portfolio-text">Marketing</p>
           </li>
-          <li class="portfolio-term">
+          <li>
             <img
               src="./images/our-portfolio-4.jpg"
               alt="Meditation App"
               width="360"
             />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="portfolio-title">Meditation App</h3>
+            <p class="portfolio-text">App</p>
           </li>
-          <li class="portfolio-term">
+          <li>
             <img
               src="./images/our-portfolio-3.jpg"
               alt="Taxi Service"
               width="360"
             />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-title">Taxi Service</h3>
+            <p class="portfolio-text">Marketing</p>
           </li>
-          <li class="portfolio-term">
+          <li>
             <img
               src="./images/our-portfolio-2.jpg"
               alt="Screen Illustrations"
               width="360"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="portfolio-title">Screen Illustrations</h3>
+            <p class="portfolio-text">Design</p>
           </li>
-          <li class="portfolio-term">
+          <li>
             <img
               src="./images/our-portfolio-1.jpg"
               alt="Online Courses"
               width="360"
             />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-title">Online Courses</h3>
+            <p class="portfolio-text">Marketing</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <a href="./index.html" class="logo"
-        ><span class="logo-web">Web</span
-        ><span class="logo-studio">Studio</span></a
+        >Web<span class="footer-logo-studio">Studio</span></a
       >
-      <p>
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>

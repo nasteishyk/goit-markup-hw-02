@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42; /* NAVY BLUE */ 
+    color: #434455; /* NAVY BLUE */ 
     background-color: #fff;
 }
 
@@ -16,26 +16,32 @@ a {
 /* header */
 .logo {
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
-}
-
-.logo-web {
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: #4D5AE5; /* IRIS */
 }
 
-.navigation ul a {
+.logo-studio {
+    color: #2e2f42;
+}
+
+.navigation-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.navigation ul a:hover,
-.navigation ul a:focus {
+.navigation-link:hover,
+.navigation-link:focus {
     color: #404BBF;
 }
 
-.address a {
+.address {
     color: #434455; /* SLATE */
     font-style: normal;
     font-weight: 400;
@@ -55,16 +61,16 @@ a {
     background-color: #2e2f42;
 }
 
-.solutions h1 {
+.solutions-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
 
-.solutions button {
+.solutions-button {
     cursor: pointer;
     background-color: #4D5AE5;
     text-align: center;
@@ -81,14 +87,14 @@ a {
 }
 
 /* features */
-.features h3 {
+.features-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
-.features p {
+.features-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -99,10 +105,11 @@ a {
     background-color: #F4F4FD; /* CLOUD */
 }
 
-.our-team h2 {
+.our-team-title {
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -111,7 +118,7 @@ a {
     background-color: #fff;
 }
 
-.our-team-person h3 {
+.team-person-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -119,7 +126,8 @@ a {
     text-align: center;
 }
 
-.our-team-person p {
+.team-person-text {
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
@@ -127,38 +135,39 @@ a {
 }
 
 /* our-portfolio */
-.our-portfolio h2 {
+.our-portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 
-.portfolio-term h3 {
+.portfolio-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
-.portfolio-term p {
+.portfolio-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
 /* footer */
-footer {
+.footer {
     background-color: #2e2f42;
 }
 
-footer p {
+.footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
 
-.logo-studio {
+.footer-logo-studio {
     color: #F4F4FD;
 }
